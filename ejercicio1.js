@@ -6,4 +6,4 @@ function sum(numberOne , numberTwo) {
         bigger =numberTwo;
     } return bigger
   }
-  sum (numberOne,numberTwo);
+  sum (numberOne, numberTwo);
