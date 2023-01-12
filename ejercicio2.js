@@ -7,8 +7,11 @@ function findLongestWord(param) {
         // mira cada elemento
         if (avenger.length > palabraMasLarga.length) {
             palabraMasLarga = avenger;
+          
         }
-     }
-     console.log(palabraMasLarga);
- }  
+
+            
+        }console.log(palabraMasLarga);
+     }  
+
  findLongestWord(avengers);

@@ -4,8 +4,6 @@ si existe el elemento, en caso que existan nos devuelve un true y
 la posición de dicho elemento y por la contra un false. Puedes usar 
 este array para probar tu función: */
 
-
-
 const nameFinder = [
     'Peter',
     'Steve',
@@ -24,12 +22,19 @@ const nameFinder = [
     for(i=0; i<array.length; i++) {
         if (array.includes(valueToFind)) {
             exists= true;
+            console.log(valueToFind+ " " +exists);
+          return array.indexOf(valueToFind);
         }else {
-        exists =false;
+        // exists =false;
+        return false;
         }
         
-} console.log(valueToFind + " " + exists);
-    return array.indexOf(valueToFind);
+ } console.log(valueToFind + " " + exists);
+    // return false;
 } 
- console.log(finderName(nameFinder, 'Natasha'));   
+ console.log(finderName(nameFinder, 'Jessica'));   
+
+
+
+
 

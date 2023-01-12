@@ -12,11 +12,17 @@ const duplicates = [
     'soda'
   ];
   function removeDuplicates(param) {
-const removed = [];
-const arrayT = param.sort()
-for (i=0; i< arrayT.length; i++) {
-if (arrayT[i +1] === arrayT[i]) {
-    removed.push(arrayT[i]);
-}
-} console.log(removed);
- } removeDuplicates(duplicates);
+
+let uniques = [];
+let doubble = [];
+for ( let i=0; i< param.length; i++) {
+  let word = param[i];
+  if (uniques.includes(word)) {
+    doubble.push(word);
+  }else {
+    uniques.push(word);
+    
+  } 
+} return doubble;
+ } 
+console.log(removeDuplicates(duplicates));

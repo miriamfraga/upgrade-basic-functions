@@ -4,6 +4,6 @@ function sum(numberOne , numberTwo) {
         bigger = numberOne;
     }else {
         bigger =numberTwo;
-    } return bigger
+    } console.log(bigger);
   }
-  sum (numberOne, numberTwo);
+  sum (83, 22);

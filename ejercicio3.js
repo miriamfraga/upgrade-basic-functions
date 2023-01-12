@@ -7,6 +7,7 @@ let sum= 0;
     sum += param[i];
   }
 
-console.log(sum)
+console.log(sum);
+ return sumAll;
 } 
 sumAll(numbers);
